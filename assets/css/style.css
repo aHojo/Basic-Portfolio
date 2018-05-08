@@ -80,6 +80,8 @@ header {
 
 
 #stickyFooter {
+    border-top: 3px solid #4aaaa5;
+    height: 50px;
     width: 100%;
     position: absolute;
     bottom: 0px;
