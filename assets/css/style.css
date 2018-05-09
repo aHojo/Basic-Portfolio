@@ -3,12 +3,14 @@
   }
 
   body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0 auto 0 auto;
     height: 100%;
     background-image: url("../images/gun_metal.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
 
   }
 /* Header Content */
@@ -69,22 +71,45 @@ header {
 
 .backgroundStyle {
     clear: both;
+    
 }
 
+
+
 .aboutMeDimensions { 
+    padding: 30px 20px;
     margin: 30px auto;
     width: 960px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
 
+#pic1 {
+    margin-right: 20px;
+    float: left;
+}
+
+.mainContentHeading {
+    color: #4aaaa5;
+    border-bottom: 1px solid grey;
+}
+
+p {
+    line-height: 32px;
+}
+
 
 #stickyFooter {
-    border-top: 3px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     height: 50px;
     width: 100%;
     position: absolute;
     bottom: 0px;
     text-align: center;
     background-color: #666666;
+}
+
+.copyright {
+    font-size: 8px;
+    margin-top: 35px;
 }
