@@ -9,31 +9,36 @@
 <body>
         <header>
             <h1 id="myName">Andrew Hojnowski</h1>
-            <div id="contact">Contact</div>
-            <div id="portfolio">Portfolio</div>
-            <div id="about">About</div>
+            <nav id="navredirects">
+                <ul>
+                    <li class="navBorder"><a href="#">About</a></li>
+                    <li class="navBorder"><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
     </header>
     <div class="backgroundStyle">
         <section class="contactDimensions">
-            <h2 id="contact" class="headings">Contact</h2>
+            <h2 id="contact" class="headings mainContentHeading">Contact</h2>
             <form>
-                <div>Name<br>
+                <div id="name">Name<br>
                     <input type="text" placeholder="Full Name">
                 </div>
-                <div>Email<br>
-                    <input type="text" placeholder="Full Name">
+                <div id="email">Email<br>
+                    <input type="text" placeholder="codeislife@gmail.com">
                 </div>
-                <div>Message<br>
-                    <input type="text" placeholder="Full Name">
+                <div id="message">Message<br>
+                    <textarea></textarea>
+                    <!-- <input id="messagearea" type="textarea"> -->
                 </div>
 
-                <button type="submit" class="submitButton">Submit</button>
+                <button class="button" type="submit" class="submitButton">Submit</button>
                 
             </form>
             
         </section>
 
     </div>
-    <footer id="stickyFooter"><div class="copyright">Copyright</div></footer>
+    <footer id="stickyFooter"><div class="copyright">Copyright &copy;</div></footer>
 </body>
 </html>
