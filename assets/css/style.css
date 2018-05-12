@@ -178,7 +178,7 @@ textarea{
 }
 #hangman {
     position: relative;
-    background-image: url(assets/images/hangman.png);
+    background-image: url('../images/hangman.png');
     background-repeat: no-repeat;
     margin: 20px 20px;
     width: 360px;
@@ -189,10 +189,10 @@ textarea{
 
 #RPGGame {
     position: relative;
-    background-image: url(https://loremflickr.com/320/240);
+    background-image: url('../images/rpg.jpg');
     background-repeat: no-repeat;
     margin: 20px 20px;
-    width: 320px;
+    width: 360px;
     height: 240px;
     float: left;
 }
@@ -200,20 +200,21 @@ textarea{
 #triviaGame {
     clear: both;
     position: relative;
-    background-image: url(https://loremflickr.com/320/240);
+    background-image: url("../images/trivia.jpg");
     background-repeat: no-repeat;
     margin: 20px 20px;
-    width: 320px;
+    width: 360px;
     height: 240px;
     float: left;
 }
 
 #RutgersInfoWidget {
     position: relative;
-    background-image: url(https://loremflickr.com/320/240);
+    background-image: url('../images/rutgersthumb.jpg');
+    background-position: -90px;
     background-repeat: no-repeat;
     margin: 20px 20px;
-    width: 320px;
+    width: 360px;
     height: 240px;
     float: left;
 }
@@ -221,10 +222,11 @@ textarea{
 #RockPaperScissors {
     clear: both;
     position: relative;
-    background-image: url(https://loremflickr.com/320/240);
+    background-image: url('../images/rockpaper.jpg');
+    background-position: 0px -110px;
     background-repeat: no-repeat;
     margin: 20px 20px;
-    width: 320px;
+    width: 360px;
     height: 240px;
     float: left;
 }
